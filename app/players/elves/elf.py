@@ -1,4 +1,4 @@
-from app.players.player import Player
+from app.players.player import Player  # Імпорт базового класу Player
 
 
 class Elf(Player):
@@ -9,7 +9,7 @@ class Elf(Player):
         musical_instrument: str
     ) -> None:
         super().__init__(nickname)
-        self._musical_instrument = musical_instrument
+        self._musical_instrument: str = musical_instrument
 
     def play_elf_song(self) -> None:
         print(
