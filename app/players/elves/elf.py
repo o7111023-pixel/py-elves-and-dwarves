@@ -1,4 +1,4 @@
-from app.players.player import Player  # Імпорт базового класу Player
+from app.players.player import Player
 
 
 class Elf(Player):
