@@ -1,4 +1,4 @@
-from .elf import Elf  # Імпорт батьківського класу з того ж пакету
+from app.elf import Elf
 
 
 class Druid(Elf):
